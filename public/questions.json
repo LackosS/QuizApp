@@ -1,0 +1,269 @@
+[
+    {
+        "question": "Az alábbiak közül mely S utasítások esetén lesz beragadt (stuck) az (S; while true do skip, s) konfiguráció tetszőleges állapot mellett?",
+        "options": [
+            "skip ; abort",
+            "skip ; skip",
+            "abort ; abort",
+            "abort ; skip"
+        ],
+        "correct": [
+            1,
+            2
+        ]
+    },
+    {
+        "question": "Melyik szemantikadefiníciós stílus(ok)ban használtuk a leveztési láncok hossza szerinti indukciót a szemantikáról való érvelésre?",
+        "options": [
+            "természetes",
+            "direkt denotációs",
+            "folytatásos denotációs",
+            "strukturális operációs"
+        ],
+        "correct": [
+            2
+        ]
+    },
+    {
+        "question": "Vezessük be a While nyelvbe a reset utasítást, amely minden változónak 0-ra állítja az értékét. A következők közül melyek adják meg helyesen az új nyelvi elem denotációs szemantikáját?",
+        "options": [
+            "Sds[reset] def= id",
+            "Sds[reset] def= l",
+            "Sds[reset]$ def= λx.0",
+            "(Sds[reset])$ def= s[x]-s[x]"
+        ],
+        "correct": [
+            2
+        ]
+    },
+    {
+        "question": "Melyek adják meg kompozicionálisan és helyesen (az operációs szemantikában megadottal ekvivalens módon) az abort folytatásos stílusú denotációs szemantikáját?",
+        "options": [
+            "Scs[abort] def= id",
+            "Scs[abort] def= Scs[while true do skip]",
+            "Scs[abort]c def= undef",
+            "Scs[abort]c def= ⊥"
+        ],
+        "correct": [
+            3
+        ]
+    },
+    {
+        "question": "Mely utasítások ekvivalensek a while true do skip utasítással a While+abort+or nyelv big-step szemantikájában?",
+        "options": [
+            "skip",
+            "skip ; abort",
+            "skip or abort",
+            "abort"
+        ],
+        "correct": [
+            0,
+            3
+        ]
+    },
+    {
+        "question": "Mely állítások teljesülnek a direkt és folytatásos stílusú szemantikákra? (S tetszőleges magnyelvi utasítás, c tetszőleges folytatás.)",
+        "options": [
+            "Scs[S] = Sds[S] ha S = skip",
+            "Scs[S]°Scs[S]c = c°Sds[S;S]",
+            "Scs[S]°Scs[S]c = c°Sds[S]°Sds[S]",
+            "Scs[S]c = c°Sds[S]"
+        ],
+        "correct": [
+            2
+        ]
+    },
+    {
+        "question": "Mely konfigurációkból indul pontosan 1 hosszú (egyetlen átmenetből álló) leveztési lánc (s tetszőleges állapot mellett)?",
+        "options": [
+            "(while false do skip, s)",
+            "(skip, s)",
+            "(x := s, x) (x tetszőleges változó)",
+            "(skip;skip, s)"
+        ],
+        "correct": [
+            1
+        ]
+    },
+    {
+        "question": "Vezessük be a While nyelvbe a szimultán értékadás utasítást: Sds[x, y := a1, a2]s def= s[x ↦ a1[[a2]s]]s[y ↦ a1[[a2]s]]. Az alábbi állítások közül melyek igazak?",
+        "options": [
+            "x, y := a1, a2  és y, x := a2, a1",
+            "x, y := a1, a2  és x := a1; y := a2",
+            "Ha a1, a2 nem tartalmazza x-et és y-t sem, akkor x, y := a1, a2  és x := a1; y := a2",
+            "Létezik olyan a1, a2, amelyekre x, y := a1, a2  érvényes x := a1; y := a2"
+        ],
+        "correct": [
+            0,
+            2
+        ]
+    },
+    {
+        "question": "Az alábbiak közül mely állítások igazak a While+or+par nyelvben tetszőleges magnyelvi S program, b feltétel és s állapot esetén?",
+        "options": [
+            "Az (S; abort, s) konfiguráció egy beragadt konfiguráció",
+            "Ha (S, s) ⇒* s, akkor (S; abort, s) ⇒* (abort, s)",
+            "Ha (S, s) ⇒* s, akkor (S par S, s) ⇒* s",
+            "Ha (S, s) ⇒* s, akkor (S or S, s) ⇒* s",
+            "Ha (S, s) ⇒* s, akkor (if b then S else S, s) ⇒* s",
+            "Ha (S, s) ⇒* s, akkor (while true do (S; abort), s) ⇒* (abort; while b do (S; abort), s)",
+            "Ha (S, s) ⇒* s, akkor (while b do (S; abort), s) ⇒* (abort; while b do S, s)"
+        ],
+        "correct": [
+            1
+        ]
+    },
+    {
+        "question": "Vezessük be a While nyelvbe a reset utasítást, amely minden változónak 0-ra állítja az értékét: Sds[reset]s def= λx.0. A következők közül melyek adják meg helyesen a direkt stílusnak megfelelően a reset folytatásos stílusú szemantikáját a c folytatásra?",
+        "options": [
+            "Scs[reset]c s def= (λx.0)",
+            "Scs[reset]c def= c o (λs.λx.0)",
+            "Scs[reset]c def= c(λs.λx.0)",
+            "Scs[reset]c def= λx.0",
+            "Scs[reset]c def= λs.c(λx.0)",
+            "Scs[reset]c s def= λx.0",
+            "Scs[reset]c def= ⊥",
+            "Scs[reset]c def= c"
+        ],
+        "correct": [
+            1
+        ]
+    },
+    {
+        "question": "Melyik állítás igaz a szintaxisdefiníciókra vonatkozóan?",
+        "options": [
+            "Az absztrakt szintaxis fákat definiál, a konkrét szintaxis szimbólumsorozatokat.",
+            "Egy konkrét szintaxis szerinti programhoz több absztrakt szintaxis szerinti program tartozhat.",
+            "A formális szemantikát mindig a konkrét szintaxisfákra adjuk meg.",
+            "Egy absztrakt szintaxis szerinti programhoz több konkrét szintaxis szerinti program tartozhat."
+        ],
+        "correct": [
+            3
+        ]
+    },
+    {
+        "question": "Mely állítások igazak a következők közül a While nyelvű (magnyelv + abort) programok szemantikájára?",
+        "options": [
+            "Két program akkor és csak akkor ekvivalens big-step szemantikában, ha small-step szemantikában ekvivalensek.",
+            "Ha két program ekvivalens big-step szemantika szerint, akkor small-step szemantika szerint is ekvivalensek.",
+            "A small-step és big-step szemantika szerinti ekvivalencia között nincs kapcsolat erre a nyelvre vonatkozóan.",
+            "Ha két program ekvivalens small-step szemantika szerint, akkor big-step szemantika szerint is ekvivalensek."
+        ],
+        "correct": [
+            3
+        ]
+    },
+    {
+        "question": "Mely ekvivalenciák érvényesek a While nyelv (magnyelv+abort+or) big-step szemantikájában tetszőleges S mellétt?",
+        "options": [
+            "(S ; S) ≡ S or (S ; S)",
+            "while false do abort ≡ skip",
+            "while true do skip ≡ abort",
+            "while b do abort ≡ abort",
+            "S ≡ S or S",
+            "abort ≡ skip"
+        ],
+        "correct": [
+            2,
+            4
+        ]
+    },
+    {
+        "question": "Vezessük be a While nyelvbe a reset kulcsszót, amely a megadott változónak 0-ra állítja az értékét. A következők közül melyek adják meg az új nyelvi elem kompozicionális, denotációs szemantikáját?",
+        "options": [
+            "Sds[reset x]s ≡ λy.(ha x = y akkor 0 egyébként s[y])",
+            "Sds[reset x] ≡ Sds[x := 0]",
+            "Sds[reset x]s ≡ λy.(ha x = y akkor s[x] -s[x] egyébként s[y])",
+            "Sds[reset x] ≡ Sds[x := - x]"
+        ],
+        "correct": [
+            1
+        ]
+    },
+    {
+        "question": "A következők közül melyik teljesül a While nyelv small-step szemantikájára vonatkozóan tetszőleges S utasítás és s állapot esetén?",
+        "options": [
+            "Ha S_{ss}[S] = ⊥ akkor S tartalmaz ciklust",
+            "Ha S_{ss}[S] = ⊥ akkor (S, s) beragadt konfiguráció",
+            "Ha S_{ss}[S ; S'] = S_{ss}[S] akkor S = skip",
+            "Ha S_{ss}[S] = id akkor S nem tartalmaz ciklust"
+        ],
+        "correct": [
+            0
+        ]
+    },
+    {
+        "question": "Vezessük be a While nyelvbe a twice ... if nyelvi szerkezetet, amely a feltétel teljesülése esetén kétszer hajtja végre a megadott utasítást, egyébként pedig csak egyszer. A következők közül melyik definíálja helyesen és kompozicionálisan a folytatásos szemantikát?",
+        "options": [
+            "Scs[twice S if b][c] = Scs[S][ cond(B[b], Scs[S][c], c) ]",
+            "Scs[twice S if b][c] = cond(B[b], (Scs[S][Scs[S][c]], Scs[S][c]))",
+            "Scs[twice S if b] = B[b] ° Scs[S] ° Scs[S]",
+            "Scs[twice S if b][c] = cond(B[b], Scs[S][Scs[S][c]], Scs[S][c])"
+        ],
+        "correct": [
+            3
+        ]
+    },
+    {
+        "question": "A következők közül mely átmenetsorozatok igazolhatók az előadáson tárgyalt small-step (While+or+par) szemantikadefiníció szerint (tetszőleges S1, S2, s és s’ esetén)?",
+        "options": [
+            "((S1 or S2) par (S1 ; S2), s) ⇒* (S1 par (S1 ; S2), s)",
+            "((S1 or S2) par (S1 ; S2), s) ⇒* (S1 par S2, s’)",
+            "((S1 or S2) par (S1 ; S2), s) ⇒* (S2 par S1, s’)",
+            "((S1 or S2) par (S1 ; S2), s) ⇒* (S1 par (S1 ; S2), s)"
+        ],
+        "correct": [
+            0
+        ]
+    },
+    {
+        "question": "A következők közül melyek teljesülnek a While+abort nyelv small-step szemantikájára vonatkozóan (tetszőleges S esetén)?",
+        "options": [
+            "id ≡ S_{ss}[skip]",
+            "id ≡ S_{ss}[abort]",
+            "S_{ss}[abort] ≡ S_{ss}[skip]",
+            "S_{ss}[abort] ≡ S_{ss}[S]"
+        ],
+        "correct": [
+            0,
+            3
+        ]
+    },
+    {
+        "question": "Vezessük be a While nyelvbe a null kulcsszót, amely igazra értékelődik ki, ha a megadott változó értéke 0, egyébként pedig hamisra. A következők közül melyek adják meg az új nyelvi elem kompozicionális, denotációs szemantikáját?",
+        "options": [
+            "B[null x] = B[x = 0]",
+            "B[null x] = ¬[x]",
+            "B[null x]s = ha s[x] = 0 akkor tt egyébként ff",
+            "B[null x]s = ha ¬[x]s = 0 akkor tt egyébként ff"
+        ],
+        "correct": [
+            2
+        ]
+    },
+    {
+        "question": "A következők közül melyik összefüggés teljesül a direkt és folytatásos szemantikákra az előadáson tárgyalt definíciók mellett tetszőleges S esetén?",
+        "options": [
+            "Scs[S][t] id = Sds[skip]",
+            "Sds[S] = Scs[S] Sds[skip]",
+            "Scs[S1;S2] id = Sds[S1] ° Sds[S2]",
+            "Sds[S] ° Sds[S] = Scs[S][Sds[S]]",
+            "Sds[S] = Scs[skip] Sds[S]"
+        ],
+        "correct": [
+            3
+        ]
+    },
+    {
+        "question": "Mikor kompozicionális egy szemantikadefiníció?",
+        "options": [
+            "Ha iteratív és rekurzív programkonstrukciók (pl. ciklus) jelentését fixpont-operátorral adja meg.",
+            "Ha az összetett szerkezetek jelentését függvénykompozícióval adja meg.",
+            "Ha szekvenciális kompozícióra vezeti vissza a vezérlési szerkezetek jelentését.",
+            "Ha az összetett szerkezetek jelentését a részeik jelentéséből komponálja meg."
+        ],
+        "correct": [
+            3
+        ]
+    }
+]

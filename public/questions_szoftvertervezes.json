@@ -1,0 +1,639 @@
+[
+    {
+        "question":"A szoftvertervezés a professzionális szoftverfejlesztés elméletével,módszereivel és eszközeivel foglalkozik.",
+        "options":["Igaz","Hamis"],
+        "correct":[0]
+    },
+    {
+        "question":"Melyik állítás tekinthető az esetek többségében igaznak?",
+        "options":["Egy rendszernek a hardver költségei nagyobbak, mint a szoftver költségei.","Egy rendszernek a szoftver költségei magasabbak, mint a hardver költségei."],
+        "correct":[1]
+    },
+    {
+        "question":"Melyik állítás tekinthető az esetek többségében igaznak?",
+        "options":["Egy szoftver fejlesztési költségei magasabbak, mint a karbantartási költségei.","Egy szoftver karbantartási költségei magasabbak, mint a fejlesztési költségei"],
+        "correct":[1]
+    },
+    {
+        "question":"Melyik állítás tekinthető az esetek többségében igaznak?",
+        "options":["A szoftvertervezés elsődlegesen a bravúros megoldásokat tartalmazó szoftverfejlesztésével foglalkozik.","A szoftvertervezés elsődlegesen a hibátlan szoftver fejlesztésével foglalkozik.","A szoftvertervezés elsődlegesen a költséghatékony szoftver fejlesztéssel foglalkozik."],
+        "correct":[2]
+    },
+    {
+        "question":"Melyik állítás tekinthető az esetek többségében igaznak?",
+        "options":["Szoftvertervezési módszerek nélkül készített szoftver a kelleténél drágább, de megbízhatóbb.",
+                    "Szoftvertervezési módszerek nélkül készített szoftver olcsóbb ésmegbízhatóbb.",
+                    "Szoftvertervezési módszerek nélkül készített szoftver a kelleténél drágább, és kevésbé megbízható."],
+        "correct":[2]
+    },
+    {
+        "question":"Melyik a legjobb szoftvertervezési módszer?",
+        "options":["Attól függ miről van szó",
+                    "Prototípus modell",
+                    "Extrém programozás",
+                    "Gyors alkalmazásfejlesztés",
+                    "V-modell ",
+                    "Scrum ",
+                    "Nem szerepel a felsorolásban",
+                    "Agilis szoftverfejlesztés",
+                    "Iteratív és inkrementális módszer"],
+        "correct":[0]
+    },
+    {
+        "question":"Az ügyfélmegrendelésre készült szoftver esetén alapesetben ki a tulajdonosa a szoftver specifikációnak?",
+        "options":["A fejlesztő","A szoftvertervezés elsődlegesen a szoftverfejlesztés módszereivel foglalkozik.",
+                    "Az ügyfél"],
+        "correct":[1]
+    },
+    {
+        "question":"Melyik nem Lehman törvény?",
+        "options":["Egy ténylegesen használt nagy rendszer szükségszerűen változik, különben egy idő után használhatatlan lesz.",
+        "A rendszer fejlődése viszonylag konstanssá válik, függetlenül attól, hogy mekkora erőforrásokat fordítunk a rendszerre",
+        "A rendszer változásával a rendszer mindig egyre komplexebb lesz.",
+        "Egy ténylegesen használt nagy rendszer idővel megromlik."],
+        "correct":[3]
+    },
+    {
+        "question":"Igaz-e, hogy az a legjobb, ha minden szoftvert nulláról indulva saját magunk fejlesztünk?",
+        "options":["Hamis",
+                   "Igaz"],
+        "correct":[0]
+    },
+    {
+        "question":"Igaz-e, hogy a felhő alapú szoftverben az a jó, hogy egyszer kifizetjük, és onnantól kezdve a mienk?",
+        "options":["Hamis",
+                  "Igaz"],
+        "correct":[0]
+    },
+    {
+        "question":"Melyik állítás igaz?",
+        "options":["A szoftver fejlesztőnek csak az a felelőssége, hogy a legjobb képessége szerint alkalmazza a szakmai tudását.",
+                  "A szoftver fejlesztőnek nem csak az a felelőssége, hogy a legjobb képessége szerint alkalmazza a szakmai tudását."],
+        "correct":[1]
+    },
+
+
+
+    {
+        "question":"Az architektúra tervezés kapcsolatot teremt …",
+        "options":["a szoftver tervezői és a menedzsment között","a szoftveresek és az építészek között","a szoftver tervezése és a szoftver követelmények felmérése között"],
+        "correct":[2]
+    },
+    {
+        "question":"Az agilis szoftverfejlesztés esetén architektúra tervezéssel szokták kezdeni a munkát.",
+        "options":["Igaz","Hamis"],
+        "correct":[0]
+    },
+    {
+        "question":"Mi az explicit architektúra előnye?",
+        "options":["Elemezni lehet, hogy a nem funkcionális követelményeket el lehet-e érni","Segíti a kommunikációt a rendszerben érdekelt felek között","Az architektúrát más fejlesztésben is fel lehet használni"],
+        "correct":[0,1,2]
+    },
+    {
+        "question":"Informális blokk diagrammal is elég az architektúrát reprezentálni.",
+        "options":["Attól függ mire akarjuk használni","Igen, mert ez minden fontos dolgot leír","Nem, mert nem elég konkrét"],
+        "correct":[0]
+    },
+    {
+        "question":"Melyik igaz?",
+        "options":["Az architektúra tervezése kreatív folyamat, ezért a kifejlesztendő rendszertől függ","Az architektúra tervezése során mindig vannak ugyanolyan kérdések, amiket át kell gondolni"],
+        "correct":[0,1]
+    },
+    {
+        "question":"Az architektúrát újrahasznosíthatjuk, mert …",
+        "options":["az architektúrákat mintaként használhatjuk","egy termék különböző változataival egyedi ügyféligényeket elégíthetünk ki","egy adott alkalmazási területen hasonló fogalmakat tükröző hasonló architektúrákra van szükség"],
+        "correct":[0,1,2]
+    },
+    {
+        "question":"Melyik nézet lehet hasznos az architektúra tervezésére és dokumentálására?",
+        "options":["logikai","folyamat","fizikai","egyik sem","fejlesztői"],
+        "correct":[0,1,2,4]
+    },
+
+
+
+
+    {
+        "question": "Az alkalmazás architektúra mire használható fel ezek közül?",
+        "options": [
+          "Alkalmazási típusok megbeszéléséhez nyelvi készlet",
+          "Az architektúra tervezésének kiindulási pontja",
+          "Komponensek újrafelhasználási lehetőségének felméréséhez eszköz",
+          "Tervezés ellenőrzési listája",
+          "A fejlesztőcsapat munkájának szervezése"
+        ],
+        "correct":[0,1,2,3,4]
+      },
+      {
+        "question": "A szoftver újrafelhasználásának hány előnyét sorolja fel az előadás anyaga?",
+        "options": [
+          "6",
+          "3",
+          "5",
+          "8"
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "A szoftver újrafelhasználás „tájképén” hány megközelítés szerepel?",
+        "options": [
+          "15",
+          "20",
+          "5",
+          "3"
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Az alkalmazási keretrendszerben a vezérlésért milyen objektumok felelnek inkább?",
+        "options": [
+          "az alkalmazás specifikus objektumok",
+          "a keretrendszer objektumok"
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "Keretrendszer felhasználásával készített alkalmazásokat érdemes szoftver termékcsaláddá fejleszteni.",
+          "Szoftver termékcsaládot érdemes alkalmazási keretrendszerré fejleszteni."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A keretrendszer a szoftver újrafelhasználásnak egy hatékony módja de nehéz a bevezetése a szoftverfejlesztési folyamatba.",
+          "A keretrendszer a szoftver újrafelhasználásnak egy nehéz módja de könnyű a bevezetése a szoftverfejlesztési folyamatba."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "Az alkalmazási keretrendszerek elsősorban alkalmazási terület specifikus tudást testesítenek meg míg a termékcsaládok a technikai oldalt támogatják.",
+          "Az alkalmazási keretrendszerek elsősorban a technikai oldalt támogatják míg a termékcsaládok alkalmazási terület specifikus tudást testesítenek meg."
+        ],
+        "correct":[1]
+      },
+
+
+
+
+      {
+        "question": "Termékcsalád esetén az adott ügyfél igényeihez igazított példánynak előállítása során …",
+        "options": [
+          "az ügyféllel megbeszéljük, hogy az igényeit milyen változtatásokkal szeretnénk kielégíteni.",
+          "pontosan az ügyfél követelményeit kielégítő példányt készítünk."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A termékcsalád tervezési idejű konfigurálása egy idő után telepítési idejű konfigurálássá fejlődik.",
+          "A termékcsalád telepítési idejű konfigurálása egy idő után tervezési idejű konfigurálássá fejlődik."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A termékcsalád telepítési idejű konfigurációja hosszas és összetett lehet.",
+          "A termékcsalád telepítési idejű konfigurációja többnyire egy nap alatt elvégezhető."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "Amikor az alkalmazási rendszert egy új ügyfél igényihez igazítjuk akkor a program kódját is érdemben változtatnunk kell.",
+          "Amikor az alkalmazási rendszert egy új ügyfél igényihez igazítjuk akkor a program kódját gyakorlatilag változatlanul használhatjuk."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "Alkalmazási rendszer esetén nem az ügyfélnek kell törődnie azzal, hogy a működtetési platformnak újabb változatai jönnek ki.",
+          "Alkalmazási rendszer esetén az ügyfélnek kell követnie, hogy a működtetési platformnak újabb változatai jönnek ki."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "Alkalmazási rendszer esetén már a követelmények megbeszélésekor meg tudjuk mutatni az ügyfélnek a rendszer funkcionalitását.",
+          "Alkalmazási rendszer esetén is csak a rendszer átadásakor tudjuk megmutatni az ügyfélnek a rendszer funkcionalitását."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A megfelelő alkalmazási rendszer kiválasztása nehézkes folyamat.",
+          "A megfelelő alkalmazási rendszer kiválasztása egyszerű folyamat."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A megfelelő alkalmazási rendszer kiválasztása során nem fontos figyelembe venni a rendszer elvárásait mert azokat úgyis meg lehet változtatni.",
+          "A megfelelő alkalmazási rendszer kiválasztása során figyelembe kell venni a rendszer elvárásait mert azokat nem lehet megváltoztatni."
+        ],
+        "correct":[1]
+      },
+      {
+      "question": "Melyik helyes?",
+      "options": [
+         "Az alkalmazási rendszerek tesztelését a fejlesztőknek kell tesztelni ugyanúgy mint ahogy egy általuk fejlesztett rendszert.",
+         "Az alkalmazási rendszerek tesztelését a felhasználókkal közösen kell végezni mert a programkód már gyakorlatilag alaposan le lett tesztelve és inkább az a kérdéses hogy a rendszer mennyire felel meg az üzleti folyamatoknak."
+        ],
+        "correct":[1]
+      },
+
+
+
+      {
+        "question": "A Szyperski féle szoftver komponens definíció szerint ...",
+        "options": [
+          "... a szoftver komponenst piaci jellemzői definiálják.",
+          "... a szoftver komponenst technikai és piaci jellemzői definiálják.",
+          "... a szoftver komponenst a technikai jellemzői definiálják."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A szoftver kompozíció minden része valamilyen szoftver komponens.",
+          "A szoftver komponens a szoftver kompozíció újrahasznosítható része."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "A komponens műveleteinek elő- és utófeltételei ...",
+        "options": [
+          "... a művelet paramétereire valamint a komponensnek a művelet előtti és utáni belső állapotára vonatkozik.",
+          "... a művelet paramétereire eredményére illetve a komponens kívülről megfigyelhető tulajdonságaira vonatkozik."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "A kliens akkor veheti igénybe a komponens szolgáltatásait ha ...",
+        "options": [
+          "... teljesíti a komponens által nyújtott interfész formáját.",
+          "... teljesíti a komponens által nyújtott interfész formáját és minőségi attribútumait."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "A komponens meta-modell ...",
+        "options": [
+          "... a komponens koncepcióját írja le.",
+          "... a fizikai komponenst ír le."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A komponens technológia a komponens modell futtatási infrastruktúrája.",
+          "A komponens technológia a komponens modell megvalósítása.",
+          "A komponens platform a komponens modell futtatási infrastruktúrája.",
+          "A komponens platform a komponens modell megvalósítása."
+        ],
+        "correct":[1,2]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A komponens technológia azon szabványok és konvenciók specifikációja amelyek szükségesek ahhoz hogy az egymástól függetlenül fejlesztett komponensek kompozícióját elő lehessen állítani.",
+          "A komponens modell azon szabványok és konvenciók specifikációja amelyek szükségesek ahhoz hogy az egymástól függetlenül fejlesztett komponensek kompozícióját elő lehessen állítani."
+        ],
+        "correct":[1]
+      },
+
+
+
+
+      {
+        "question": "Leginkább melyik esetben teszünk komponenseket általánosabbá?",
+        "options": [
+          "komponens alapú szoftverfejlesztés újrafelhasználással",
+          "komponens alapú szoftverfejlesztés újrafelhasználásra"
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik kapcsolódik közvetlenül a komponens menedzsment folyamathoz?",
+        "options": [
+          "komponens alapú szoftverfejlesztés újrafelhasználásra",
+          "komponens alapú szoftverfejlesztés újrafelhasználással"
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik igaz?",
+        "options": [
+          "Minél általánosabbá tesszük az interfészt annál inkább tudjuk újrafelhasználni de nehezebb használni.",
+          "Minél általánosabbá tesszük az interfészt annál inkább tudjuk használni de nehezebb újrafelhasználni."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyesebb?",
+        "options": [
+          "Az általánosított komponens kezelje le a kivételeket és ne vezesse ki az interfészére.",
+          "Az általánosított komponens ne kezelje le a kivételeket hanem vezesse ki az interfészére."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A megfelelő komponens keresésekor ellenőrizni kell a komponens nekünk szükséges és a nekünk nem szükséges funkcionalitásait.",
+          "A megfelelő komponens keresésekor hatékonyabb ha csak a komponens nekünk szükséges funkcionalitásait ellenőrizzük."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A megfelelő komponens keresésekor ellenőrizni kell a komponens funkcionalitásait valamint az architektúrális kihatásait.",
+          "A megfelelő komponens keresésekor hatékonyabb ha csak a komponens funkcionalitásait ellenőrizzük."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik interfész illesztési technika a legkevésbé független az illesztendő komponenstől?",
+        "options": [
+          "híd",
+          "tárgyaló",
+          "csomagoló"
+        ],
+        "correct":[2]
+      },
+
+
+
+
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A modell specifikációját teljesítő teljes implementációt nevezzük modell megoldásnak.",
+          "Az implementációra vonatkozó megszorításoknak eleget tevő prototípust nevezzük modell megoldásnak."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "A modell probléma munkamenete hány lépésből áll?",
+        "options": ["7", "6", "4", "5"],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "Az additív kompozícióban a komponensek egymás után hajtódnak végre.",
+          "A soros kompozícióban két komponensből egy új komponenst hoznak létre.",
+          "A hierarchikus kompozícióban az egyik komponens a másik komponens szolgáltatásait hívja meg."
+        ],
+        "correct":[2]
+      },
+      {
+        "question": "Melyiknek speciális esete a többi?",
+        "options": [
+          "műveleti inkompatibilitás",
+          "műveleti hiányosság",
+          "paraméter inkompatibilitás",
+          "interfész inkompatibilitás"
+        ],
+        "correct":[3]
+      },
+
+
+
+
+      {
+        "question": "A három dimenziós modelljében melyik tengely vonatkozik a termékcsaládokra?",
+        "options": [
+          "általánosítás/specializáció",
+          "absztrakció/konkretizáció",
+          "kompozíció/dekompozíció"
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "A komponens alapú fejlesztésben a validáció mikor történik?",
+        "options": [
+          "A teljes rendszer kidolgozása után.",
+          "Már a részleges dekomponálás után is."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A környezeti térkép strukturális modelljében a komponensek a megvalósítandó rendszeren kívüli komponensek.",
+          "A környezeti térkép strukturális modelljében a komponensek a megvalósítandó rendszeren belüli komponensek."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A környezeti térkép viselkedési modellje a rendszer tevékenységeit írja le.",
+          "A környezeti térkép viselkedési modellje a rendszer szereplőinek a rendszer határára vonatkozó tevékenységeit írja le."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A komponens meta-modell diagram a komponens fogalmat írja le.",
+          "A komponens meta-modell diagram a teljes rendszert írja le."
+        ],
+        "correct":[0]
+      },
+
+
+
+
+
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A KobrA módszertanban a komponens specifikáció strukturális modelljében a komponensek a megvalósítandó rendszeren kívüli komponensek.",
+          "A KobrA módszertanban a komponens specifikáció strukturális modelljében a komponensek a megvalósítandó rendszeren belüli komponensek."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A KobrA módszertanban a komponens specifikáció funkcionális modellje azt írja le hogy a komponens műveletei hogyan működnek.",
+          "A KobrA módszertanban a komponens specifikáció funkcionális modellje azt írja le hogy a komponens műveletei mit csinálnak."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A KobrA módszertanban a komponens specifikáció viselkedési modellje a komponens kívülről megfigyelhető viselkedését írja le.",
+          "A KobrA módszertanban a komponens specifikáció viselkedési modellje a komponens belső viselkedését írja le."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A KobrA módszertanban a komponens megvalósítás strukturális modelljében dekomponálás is történik.",
+          "A KobrA módszertanban a komponens megvalósítás strukturális modelljében programozás történik."
+        ],
+        "correct":[0]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A KobrA módszertanban a komponens megvalósítás viselkedési modellje a komponens kívülről megfigyelhető viselkedését írja le.",
+          "A KobrA módszertanban a komponens megvalósítás viselkedési modellje a komponens belső viselkedését írja le."
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Melyik helyes?",
+        "options": [
+          "A KobrA módszertanban a komponens megvalósítás kölcsönhatás modellje azt írja le hogy a komponens hogyan működik együtt a megvalósítandó rendszeren kívüli aktorokkal.",
+          "A KobrA módszertanban a komponens megvalósítás kölcsönhatás modellje azt írja le hogy a komponens hogyan működik együtt a többi komponenssel."
+        ],
+        "correct":[1]
+      },
+
+
+
+
+
+      {
+        "question":"Melyik helyes?",
+        "options":["A fordítás egy reláció két különböző leírás között a részletezettség azonos szintjén.",
+                   "A finomítás egy reláció két különböző leírás között a részletezettség azonos szintjén.",
+                    "A fordítás egy reláció ugyanazon dolog kétféle leírása között, pontosabban fogalmazva a fordítás ugyanazon dolog jobban részletezett leírása egy másik szinten.",
+                "A finomítás egy reláció ugyanazon dolog kétféle leírása között, pontosabban fogalmazva a finomítás ugyanazon dolog jobban részletezett leírása egy másik szinten."
+            ],
+            "correct":[0,3]
+      },
+      {
+        "question":"A termékcsaládhoz tartozó döntési modell mi(ke)t tartalmaz?",
+        "options":["Azt a helyet, ahol a döntés megtestesül","A lehetséges döntési válaszok egy halmazát, amelyek mindegyike a termékcsalád egy-egy specifikus példányára képződik le",
+            "Egy szöveges kérdést, amely arra a területre vonatkozik, amellyel kapcsolatban a döntést meg kell hozni","Azt, hogy miből lehet termékcsaládot készíteni"
+        ],
+        "correct":[0,1,2]
+      },
+      {
+        "question":"Melyik állítás vonatkozik a kompozíciós mechanizmusok közül a tartalmazásra?",
+        "options":["az egységek meghívják egymás viselkedését","az összetevők egymással közvetlenül nem kommunikálnak",
+            "a kompozit egység viselkedését az összetevő egységek viselkedésének felhasználásával definiálják"
+        ],
+        "correct":[2]
+      },
+      {
+        "question":"Melyik állítás vonatkozik a kompozíciós mechanizmusok közül a kapcsolódásra?",
+        "options":["az egységek meghívják egymás viselkedését","az összetevők egymással közvetlenül nem kommunikálnak",
+            "a kompozit egység viselkedését az összetevő egységek viselkedésének felhasználásával definiálják"
+        ],
+        "correct":[0]
+      },
+      {
+        "question":"Melyik állítás vonatkozik a kompozíciós mechanizmusok közül a koordinációra?",
+        "options":["az összetevők egymással közvetlenül nem kommunikálnak","a kompozit egység viselkedését az összetevő egységek viselkedésének felhasználásával definiálják",
+            "az egységek meghívják egymás viselkedését"
+        ],
+        "correct":[0]
+      },
+      {
+        "question":"Melyik koordinációs kompozíció tartozik az úgynevezett „algebrai kompozíciós mechanizmusok” közé?",
+        "options":["web szolgáltatás „orchestration","exogén koordináció","adat koordináció"
+        ],
+        "correct":[1]
+      },
+
+
+
+
+      {
+        "question": "Melyik _nem_ szerepel az előadáson ismertetett inkrementális kompozíciós módszer kompozíciós konnektorai között?",
+        "options": [
+          "PIPE",
+          "SELECTOR",
+          "SEQ",
+          "GUARD"
+        ],
+        "correct":[1]
+      },
+      {
+        "question": "Az előadáson ismertetett inkrementális kompozíciós módszer hányadik lépése a részleges architektúra létrehozása?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "1"
+        ],
+        "correct":[0]
+      },
+      {
+        "question":"Hogyan viszonyul a szolgáltatás-orientált szoftvertervezés a komponens alapú szoftvertervezéshez?",
+        "options":["A szolgáltatás-orientált szoftvertervezés és a komponens alapú szoftvertervezés két különböző dolog.","A szolgáltatás-orientált szoftvertervezés ugyanaz, mint komponens alapú szoftvertervezés.","A szolgáltatás-orientált szoftvertervezés olyan komponens alapú szoftvertervezés, ahol a komponenseknek nincsenek elvárt interfészei."
+        ],
+        "correct":[2]
+      },
+      {
+        "question":"Melyik igaz?",
+        "options":["Szolgáltatás-orientált rendszer esetén a futásidőben dőlhet el, hogy melyik szolgáltatás melyik másik szolgáltatáshoz kapcsolódik.",
+            "Szolgáltatás-orientált rendszer esetén a tervezési időben dől el, hogy melyik szolgáltatás melyik másik szolgáltatáshoz kapcsolódik."
+        ],
+        "correct":[0]
+      },
+      {
+        "question":"Melyik igaz?",
+        "options":["A szolgáltatás-orientált rendszereknél mindenképpen folyamatosan fizetni kell a szolgáltatás rendelkezésre állásáért.",
+            "A szolgáltatás-orientált rendszereknél lehetséges, hogy csak az igénybevételekért fizessünk."
+        ],
+        "correct":[1]
+      },
+      
+      
+
+
+      {
+        "question":"Az előadásban említettek szerint melyik folyamatot segíti a szolgáltatások alapvető típusainak ismerete?",
+        "options":["Szolgáltatás tervezés","Szolgáltatás kompozíció"],
+        "correct":[0]
+      },
+      {
+        "question":"Melyik tartozik a szolgáltatástervezési folyamathoz?",
+        "options":["Szolgáltatás beazonosítása","zolgáltatás kikeresése","Szolgáltatás kiválasztása"],
+        "correct":[0]
+      },
+      {
+        "question":"Melyik helyes?",
+        "options":["Ha egy szolgáltatás kompozíció tesztesete sikeresen lefut, akkor az később is sikeresen lefut.",
+            "Ha egy szolgáltatás kompozíció tesztesete sikeresen lefut, akkor nem biztos, hogy az később is sikeresen lefut."
+        ],
+        "correct":[1]
+      },
+      {
+        "question":"Melyik helyes?",
+        "options":["A szolgáltatás kompozíció nem funkcionális tesztje jól kiszámíthatóan megtervezhető.",
+            "A szolgáltatás kompozíció nem funkcionális tesztje nem tervezhető meg jól kiszámíthatóan."    
+        ],
+        "correct":[1]   
+      },
+      {
+        "question":"Melyik helyesebb?",
+        "options":["Meglévő öröklött rendszerekből szolgáltatás készítése lassítja a szolgáltatás készítési folyamatot.",
+            "Meglévő öröklött rendszerekből szolgáltatás készítése felgyorsíthatja a szolgáltatás készítési folyamatot."
+        ],
+        "correct":[1]
+      }
+]
